@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+     -->
+    <wpt lat="1.4283" lon="103.8375">
+        <time>2014-09-24T14:55:25Z</time>
+    </wpt>
+    <wpt lat="1.4284" lon="103.8361">
+        <time>2014-09-24T14:55:30Z</time>
+    </wpt>
+    <wpt lat="1.4286627" lon="103.835549">
+        <time>2014-09-24T14:55:35Z</time>
+    </wpt>
+    <wpt lat="1.4291757" lon="103.835299">
+        <time>2014-09-24T14:55:40Z</time>
+    </wpt>
+    <wpt lat="1.4296" lon="103.8348">
+        <time>2014-09-24T14:55:42Z</time>
+    </wpt>
+    <wpt lat="1.4298" lon="103.83477">
+        <time>2014-09-24T14:55:44Z</time>
+    </wpt>
+    <wpt lat="1.430097" lon="103.83477">
+        <time>2014-09-24T14:55:46Z</time>
+    </wpt>
+    <wpt lat="1.43028" lon="103.83494">
+        <time>2014-09-24T14:55:48Z</time>
+    </wpt>
+    <wpt lat="1.4302654" lon="103.835194">
+        <time>2014-09-24T14:55:50Z</time>
+    </wpt>
+    <wpt lat="1.43033196" lon="103.8350954">
+        <time>2014-09-24T14:55:52Z</time>
+    </wpt>
+    <wpt lat="1.4304119" lon="103.83441274">
+        <time>2014-09-24T14:55:54Z</time>
+    </wpt>
+    <wpt lat="1.43041296" lon="103.83341274">
+        <time>2014-09-24T14:55:56Z</time>
+    </wpt>
+    <wpt lat="1.4304" lon="103.8332">
+        <time>2014-09-24T14:55:58Z</time>
+    </wpt>
+    <wpt lat="1.4304" lon="103.8332">
+        <time>2014-09-24T14:56:48Z</time>
+    </wpt>
+    <wpt lat="1.430427368" lon="103.833002">
+        <time>2014-09-24T14:56:50Z</time>
+    </wpt>
+    <wpt lat="1.4304" lon="103.832512">
+        <time>2014-09-24T14:56:52Z</time>
+    </wpt>
+    <wpt lat="1.4304" lon="103.8317">
+        <time>2014-09-24T14:56:54Z</time>
+    </wpt>
+    <wpt lat="1.4304" lon="103.8315">
+        <time>2014-09-24T14:56:56Z</time>
+    </wpt>
+    <wpt lat="1.4303" lon="103.8297">
+        <time>2014-09-24T14:56:58Z</time>
+    </wpt>
+    <wpt lat="1.4303" lon="103.8297">
+        <time>2014-09-24T14:57:38Z</time>
+    </wpt>
+    <wpt lat="1.43037349" lon="103.829676">
+        <time>2014-09-24T14:57:40Z</time>
+    </wpt>
+    <wpt lat="1.4317" lon="103.8296">
+        <time>2014-09-24T14:57:46Z</time>
+    </wpt>
+</gpx>
