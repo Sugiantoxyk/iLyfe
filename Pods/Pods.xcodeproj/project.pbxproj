@@ -1,0 +1,1174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B5989C9E8F8025387792919EF0A2E739 /* FritzVisionPoseModel */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ED5AD32E907B93A3FAB53D1CE643219B /* Build configuration list for PBXAggregateTarget "FritzVisionPoseModel" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B2054E95D88EBFDD1AA017D37BF20401 /* PBXTargetDependency */,
+			);
+			name = FritzVisionPoseModel;
+			productName = FritzVisionPoseModel;
+		};
+		D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A5D502233B73CFFB7D7CA2DE73C64470 /* Build configuration list for PBXAggregateTarget "FritzBase" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FritzBase;
+			productName = FritzBase;
+		};
+		FD4D230B022BCBFF67A5E99BA7AA380B /* Fritz */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A28439F3D67F91FED1B1EF444188B43 /* Build configuration list for PBXAggregateTarget "Fritz" */;
+			buildPhases = (
+			);
+			dependencies = (
+				375B3D331C5EED75A9F2E3FE807423B4 /* PBXTargetDependency */,
+				20AF4CC50ABEA6B674C3FFE997560F58 /* PBXTargetDependency */,
+			);
+			name = Fritz;
+			productName = Fritz;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		175D7C258F6B3C768746B175F65C2D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		25361B4835D661B7BC99FE03B4F1CF6F /* Pods-iLyfe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 429EA74D4AC1D1A519DEE3530E64DE5F /* Pods-iLyfe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		300CC6A3FFEBF2E28002A2FC9036D1A9 /* Pods-iLyfe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F684D2D983AF3355313A555FF53B1E02 /* Pods-iLyfe-dummy.m */; };
+		57F9E70DB38A8D88E0EBD4BE6795CDF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9735763CD7CF674634D3A42FE025AB2F /* Pods-iLyfeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E42AE04C44DD672664B89222E5230C9E /* Pods-iLyfeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DFABA1FE34539A0649042A2A4DA266D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BB72C2F23826B2B94C98AD49382D61B8 /* Pods-iLyfeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D343F79E217BA3A4F1CE85435133DC6 /* Pods-iLyfeTests-dummy.m */; };
+		C9AC1F41EEAF3863608673E55CD0F093 /* Pods-iLyfeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B1F1CD31D97DB4A588C9E04CD88621 /* Pods-iLyfeUITests-dummy.m */; };
+		CB3EE086370D6F71DE6AB34CCDC3F0C8 /* Pods-iLyfeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC408AD4598062D7B37CED1E497766D /* Pods-iLyfeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CD1D9B3C1AB6A50E2946CECDA215527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AE921386E3F53A09FA4AE6610DCA6A;
+			remoteInfo = FritzBase;
+		};
+		28C2825E4D0D47FC89AA969C097E2AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5989C9E8F8025387792919EF0A2E739;
+			remoteInfo = FritzVisionPoseModel;
+		};
+		36BD05DCCDE8CCA27C379718AF72BDF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AE921386E3F53A09FA4AE6610DCA6A;
+			remoteInfo = FritzBase;
+		};
+		3E2357E5FAC0714F7C848DECF6607E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4291FAB2306466A7F5B6F92E76DB9F;
+			remoteInfo = "Pods-iLyfe";
+		};
+		629AE722BD0A1A3EDEBB74C26A3C2A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4291FAB2306466A7F5B6F92E76DB9F;
+			remoteInfo = "Pods-iLyfe";
+		};
+		9B3C8857E28439B5324AEF843A223DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5989C9E8F8025387792919EF0A2E739;
+			remoteInfo = FritzVisionPoseModel;
+		};
+		C5802C573EB3B9729A713B45553BA5BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AE921386E3F53A09FA4AE6610DCA6A;
+			remoteInfo = FritzBase;
+		};
+		E8D3674258FF40A8AD52EBC63758B260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4D230B022BCBFF67A5E99BA7AA380B;
+			remoteInfo = Fritz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026EB8CD887C4D10085B53A649D98514 /* Pods-iLyfeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLyfeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D343F79E217BA3A4F1CE85435133DC6 /* Pods-iLyfeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iLyfeTests-dummy.m"; sourceTree = "<group>"; };
+		2AC75BD5C3ECB1B56F12BCD90E2BA43A /* CoreMLHelpers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMLHelpers.framework; path = Frameworks/CoreMLHelpers.framework; sourceTree = "<group>"; };
+		2C4B093A7F5594F57D0A4803E1686932 /* Pods-iLyfeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iLyfeTests.modulemap"; sourceTree = "<group>"; };
+		2DB6234E017A620AF4EF7E426C6DFAA1 /* Pods-iLyfe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLyfe.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38860EB6FB216A0AE5975D42F20B09D1 /* Pods-iLyfeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLyfeUITests-Info.plist"; sourceTree = "<group>"; };
+		3CFE8C2FD3C3535373252A719EFEB6E5 /* Pods-iLyfeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLyfeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D063BE177D0795FC35CF094B353597C /* Pods-iLyfe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iLyfe.modulemap"; sourceTree = "<group>"; };
+		3E2565605E48360090CB4EBC3426201A /* Pods_iLyfeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLyfeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F43C90ADA2484A28A374B8E715721D0 /* Pods-iLyfe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iLyfe-frameworks.sh"; sourceTree = "<group>"; };
+		429EA74D4AC1D1A519DEE3530E64DE5F /* Pods-iLyfe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iLyfe-umbrella.h"; sourceTree = "<group>"; };
+		45BE706506459919273A8DCDBE04396F /* Pods-iLyfeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iLyfeUITests.modulemap"; sourceTree = "<group>"; };
+		4AFA9D87FD76B744FAE850F48F5AFEC6 /* Pods-iLyfeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLyfeTests-Info.plist"; sourceTree = "<group>"; };
+		4CD9804C51576951961C24198B7F157F /* Pods-iLyfe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLyfe-Info.plist"; sourceTree = "<group>"; };
+		5564182D387F82198A34E882264BFDC0 /* Pods-iLyfe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iLyfe-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D9195BA15A9D3B2255C32A951AC3317 /* FritzVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzVision.framework; path = Frameworks/FritzVision.framework; sourceTree = "<group>"; };
+		6030E0683719DF6453E1DADC5A49F3B4 /* Pods-iLyfeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iLyfeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62C8D489F321752337906CEBCC9E8685 /* Fritz.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fritz.xcconfig; sourceTree = "<group>"; };
+		7D47FF86ACD91A040036E8DC06478C65 /* FritzVisionPoseModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FritzVisionPoseModel.xcconfig; sourceTree = "<group>"; };
+		7EC408AD4598062D7B37CED1E497766D /* Pods-iLyfeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iLyfeTests-umbrella.h"; sourceTree = "<group>"; };
+		7EEF0083EEE2387F176E122DF1826B85 /* FritzManagedModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzManagedModel.framework; path = Frameworks/FritzManagedModel.framework; sourceTree = "<group>"; };
+		891AA419B5F0405208FA30A24768F9F6 /* Pods-iLyfe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLyfe-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BF491D529D2D3BFD55F6395F001AAE5 /* FritzBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FritzBase.xcconfig; sourceTree = "<group>"; };
+		936D38F047BAED155D9192AABFAEF6BB /* Pods-iLyfeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLyfeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D60A75D8B259BB1FA65B9C36C4B8443 /* Pods-iLyfeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLyfeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A61236926E44F6E3A19BD9C346019E1D /* FritzVisionPoseModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzVisionPoseModel.framework; path = Frameworks/FritzVisionPoseModel.framework; sourceTree = "<group>"; };
+		AF1F8899B2998C16CA2A2928D45FE7F4 /* Pods-iLyfeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLyfeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B831EBCB40CF4392AE6C000B06BB9224 /* Pods-iLyfeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLyfeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA15D08CFEC888F241D0636C0D072205 /* Pods_iLyfeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLyfeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B1F1CD31D97DB4A588C9E04CD88621 /* Pods-iLyfeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iLyfeUITests-dummy.m"; sourceTree = "<group>"; };
+		D9710F524879FD52B4F1B5E8CCF917A6 /* Pods-iLyfe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLyfe.debug.xcconfig"; sourceTree = "<group>"; };
+		E42AE04C44DD672664B89222E5230C9E /* Pods-iLyfeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iLyfeUITests-umbrella.h"; sourceTree = "<group>"; };
+		EC0DBB1CF56E3488EA9C6DE46E29D0A6 /* FritzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzCore.framework; path = Frameworks/FritzCore.framework; sourceTree = "<group>"; };
+		ECDFD4084E0E718A252F92A2507DA633 /* Fritz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fritz.framework; path = Frameworks/Fritz.framework; sourceTree = "<group>"; };
+		F55B5942817DDEA9BC135B53EE4E036F /* Pods_iLyfe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLyfe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57965BC5F396235CEDD4A1479267F31 /* Pods-iLyfeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iLyfeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F684D2D983AF3355313A555FF53B1E02 /* Pods-iLyfe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iLyfe-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249895A8AEC8D0E51BF32E0554391A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F9E70DB38A8D88E0EBD4BE6795CDF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697B7CA6C4DB1A3D630A4E14E50EBAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175D7C258F6B3C768746B175F65C2D4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE639F9B494F4904DCFE8E6C52A6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFABA1FE34539A0649042A2A4DA266D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A8814A66A5A09C7A1BB476B3073CAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEDEB56DD7B9D855178D1243A17BACD0 /* Pods-iLyfe */,
+				CDCA4F6C9327633F6673B30D3C0F3805 /* Pods-iLyfeTests */,
+				E343F8FE04F671C5AD037DC39EC6A2BB /* Pods-iLyfeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C6CB7B81B3023CE2E67BDFA622D02E5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5B1C5976090F115B0990E447CB23CAB7 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		212A61E0209D85AF2AFACFEE2B98C0FD /* FritzBase */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CB7B81B3023CE2E67BDFA622D02E5 /* Core */,
+				8C2262AE47C106D9F83FE95B99704613 /* CoreMLHelpers */,
+				A89DA511C2293C321E739F948A083117 /* ManagedModel */,
+				809E3FDC77581635861F241A93E08CC1 /* Support Files */,
+				3DC6C45CEC7AA0D50FA714D2E4FF0FD2 /* Vision */,
+			);
+			path = FritzBase;
+			sourceTree = "<group>";
+		};
+		2890C55AE09749383D3F6BE52262536E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C8D489F321752337906CEBCC9E8685 /* Fritz.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fritz";
+			sourceTree = "<group>";
+		};
+		3DC6C45CEC7AA0D50FA714D2E4FF0FD2 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C2EF6B02B07BD8C6E89B94500B6B0 /* Frameworks */,
+			);
+			name = Vision;
+			sourceTree = "<group>";
+		};
+		5B1C5976090F115B0990E447CB23CAB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECDFD4084E0E718A252F92A2507DA633 /* Fritz.framework */,
+				EC0DBB1CF56E3488EA9C6DE46E29D0A6 /* FritzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68F6BD8AD540DA5467D1760C0DB5A1DC /* Fritz */ = {
+			isa = PBXGroup;
+			children = (
+				2890C55AE09749383D3F6BE52262536E /* Support Files */,
+			);
+			path = Fritz;
+			sourceTree = "<group>";
+		};
+		6A5AD7C25BA205F0879A65B9C54845C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D47FF86ACD91A040036E8DC06478C65 /* FritzVisionPoseModel.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FritzVisionPoseModel";
+			sourceTree = "<group>";
+		};
+		763F0E6BE04317CCA4E1BD30FC48E513 /* FritzVisionPoseModel */ = {
+			isa = PBXGroup;
+			children = (
+				D3A7ED8B54B4088CAB06731B3D22E56C /* Frameworks */,
+				6A5AD7C25BA205F0879A65B9C54845C1 /* Support Files */,
+			);
+			path = FritzVisionPoseModel;
+			sourceTree = "<group>";
+		};
+		8085109D59CD0540F62F773FB7B257BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EEF0083EEE2387F176E122DF1826B85 /* FritzManagedModel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		809E3FDC77581635861F241A93E08CC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF491D529D2D3BFD55F6395F001AAE5 /* FritzBase.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FritzBase";
+			sourceTree = "<group>";
+		};
+		80ACEC5DCE451B73CA0A8C4CE8975CD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC75BD5C3ECB1B56F12BCD90E2BA43A /* CoreMLHelpers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B9697D6987FCD115C8D788426F80A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55B5942817DDEA9BC135B53EE4E036F /* Pods_iLyfe.framework */,
+				3E2565605E48360090CB4EBC3426201A /* Pods_iLyfeTests.framework */,
+				BA15D08CFEC888F241D0636C0D072205 /* Pods_iLyfeUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2262AE47C106D9F83FE95B99704613 /* CoreMLHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				80ACEC5DCE451B73CA0A8C4CE8975CD3 /* Frameworks */,
+			);
+			name = CoreMLHelpers;
+			sourceTree = "<group>";
+		};
+		A89DA511C2293C321E739F948A083117 /* ManagedModel */ = {
+			isa = PBXGroup;
+			children = (
+				8085109D59CD0540F62F773FB7B257BD /* Frameworks */,
+			);
+			name = ManagedModel;
+			sourceTree = "<group>";
+		};
+		BEDEB56DD7B9D855178D1243A17BACD0 /* Pods-iLyfe */ = {
+			isa = PBXGroup;
+			children = (
+				3D063BE177D0795FC35CF094B353597C /* Pods-iLyfe.modulemap */,
+				5564182D387F82198A34E882264BFDC0 /* Pods-iLyfe-acknowledgements.markdown */,
+				891AA419B5F0405208FA30A24768F9F6 /* Pods-iLyfe-acknowledgements.plist */,
+				F684D2D983AF3355313A555FF53B1E02 /* Pods-iLyfe-dummy.m */,
+				3F43C90ADA2484A28A374B8E715721D0 /* Pods-iLyfe-frameworks.sh */,
+				4CD9804C51576951961C24198B7F157F /* Pods-iLyfe-Info.plist */,
+				429EA74D4AC1D1A519DEE3530E64DE5F /* Pods-iLyfe-umbrella.h */,
+				D9710F524879FD52B4F1B5E8CCF917A6 /* Pods-iLyfe.debug.xcconfig */,
+				2DB6234E017A620AF4EF7E426C6DFAA1 /* Pods-iLyfe.release.xcconfig */,
+			);
+			name = "Pods-iLyfe";
+			path = "Target Support Files/Pods-iLyfe";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA8C2EF6B02B07BD8C6E89B94500B6B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D9195BA15A9D3B2255C32A951AC3317 /* FritzVision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDCA4F6C9327633F6673B30D3C0F3805 /* Pods-iLyfeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B093A7F5594F57D0A4803E1686932 /* Pods-iLyfeTests.modulemap */,
+				6030E0683719DF6453E1DADC5A49F3B4 /* Pods-iLyfeTests-acknowledgements.markdown */,
+				9D60A75D8B259BB1FA65B9C36C4B8443 /* Pods-iLyfeTests-acknowledgements.plist */,
+				1D343F79E217BA3A4F1CE85435133DC6 /* Pods-iLyfeTests-dummy.m */,
+				4AFA9D87FD76B744FAE850F48F5AFEC6 /* Pods-iLyfeTests-Info.plist */,
+				7EC408AD4598062D7B37CED1E497766D /* Pods-iLyfeTests-umbrella.h */,
+				B831EBCB40CF4392AE6C000B06BB9224 /* Pods-iLyfeTests.debug.xcconfig */,
+				936D38F047BAED155D9192AABFAEF6BB /* Pods-iLyfeTests.release.xcconfig */,
+			);
+			name = "Pods-iLyfeTests";
+			path = "Target Support Files/Pods-iLyfeTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E5895739E78CEEF465F49D797DA30330 /* Pods */,
+				8B9697D6987FCD115C8D788426F80A31 /* Products */,
+				11A8814A66A5A09C7A1BB476B3073CAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A7ED8B54B4088CAB06731B3D22E56C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A61236926E44F6E3A19BD9C346019E1D /* FritzVisionPoseModel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E343F8FE04F671C5AD037DC39EC6A2BB /* Pods-iLyfeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45BE706506459919273A8DCDBE04396F /* Pods-iLyfeUITests.modulemap */,
+				F57965BC5F396235CEDD4A1479267F31 /* Pods-iLyfeUITests-acknowledgements.markdown */,
+				026EB8CD887C4D10085B53A649D98514 /* Pods-iLyfeUITests-acknowledgements.plist */,
+				C0B1F1CD31D97DB4A588C9E04CD88621 /* Pods-iLyfeUITests-dummy.m */,
+				38860EB6FB216A0AE5975D42F20B09D1 /* Pods-iLyfeUITests-Info.plist */,
+				E42AE04C44DD672664B89222E5230C9E /* Pods-iLyfeUITests-umbrella.h */,
+				AF1F8899B2998C16CA2A2928D45FE7F4 /* Pods-iLyfeUITests.debug.xcconfig */,
+				3CFE8C2FD3C3535373252A719EFEB6E5 /* Pods-iLyfeUITests.release.xcconfig */,
+			);
+			name = "Pods-iLyfeUITests";
+			path = "Target Support Files/Pods-iLyfeUITests";
+			sourceTree = "<group>";
+		};
+		E5895739E78CEEF465F49D797DA30330 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68F6BD8AD540DA5467D1760C0DB5A1DC /* Fritz */,
+				212A61E0209D85AF2AFACFEE2B98C0FD /* FritzBase */,
+				763F0E6BE04317CCA4E1BD30FC48E513 /* FritzVisionPoseModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04FC007E9F710FB7CC3E25A12748BF91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9735763CD7CF674634D3A42FE025AB2F /* Pods-iLyfeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540C6FB7D66D32020B66ACAFBFC88F66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3EE086370D6F71DE6AB34CCDC3F0C8 /* Pods-iLyfeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEC19B094E44B5D2D648FAB7FCCC315 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25361B4835D661B7BC99FE03B4F1CF6F /* Pods-iLyfe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F0A4586773F84C1FB568B465A71D310 /* Pods-iLyfeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A5C69013D285EA33798394654857DC /* Build configuration list for PBXNativeTarget "Pods-iLyfeTests" */;
+			buildPhases = (
+				540C6FB7D66D32020B66ACAFBFC88F66 /* Headers */,
+				58DF3F04DB0EABB99CF39E40D9859435 /* Sources */,
+				697B7CA6C4DB1A3D630A4E14E50EBAC9 /* Frameworks */,
+				669B4990249D5AD01F218AC26543ED82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44617822BDA68C862B71DD6193509FB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-iLyfeTests";
+			productName = "Pods-iLyfeTests";
+			productReference = 3E2565605E48360090CB4EBC3426201A /* Pods_iLyfeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DCD6909BDB2961A99F2DC49B91B2A14 /* Pods-iLyfeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9010E51B3D0C9B51C4A15869A94B2E7 /* Build configuration list for PBXNativeTarget "Pods-iLyfeUITests" */;
+			buildPhases = (
+				04FC007E9F710FB7CC3E25A12748BF91 /* Headers */,
+				B6EE5104A50ED8E27DE8E61E79D95D16 /* Sources */,
+				249895A8AEC8D0E51BF32E0554391A54 /* Frameworks */,
+				220D37C3E1DF06D35B871DBA88D7D1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB99CB8B6BED1BAE00F3AF4D9236E443 /* PBXTargetDependency */,
+			);
+			name = "Pods-iLyfeUITests";
+			productName = "Pods-iLyfeUITests";
+			productReference = BA15D08CFEC888F241D0636C0D072205 /* Pods_iLyfeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F4291FAB2306466A7F5B6F92E76DB9F /* Pods-iLyfe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15680EA919D5583F8ACF76DEA01EA19 /* Build configuration list for PBXNativeTarget "Pods-iLyfe" */;
+			buildPhases = (
+				DDEC19B094E44B5D2D648FAB7FCCC315 /* Headers */,
+				81F1D6B6BD565288A954D7D111C4E68F /* Sources */,
+				80EE639F9B494F4904DCFE8E6C52A6DB /* Frameworks */,
+				A46BE03E325AF0168290D5A63FE9B507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D551C8ACF19C18C28AD4F92406C2F1 /* PBXTargetDependency */,
+				D99FAC88522CEE1057B11B47D97DE3F1 /* PBXTargetDependency */,
+				B2ADE91497CC95320025C728F34D9FD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-iLyfe";
+			productName = "Pods-iLyfe";
+			productReference = F55B5942817DDEA9BC135B53EE4E036F /* Pods_iLyfe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8B9697D6987FCD115C8D788426F80A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4D230B022BCBFF67A5E99BA7AA380B /* Fritz */,
+				D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */,
+				B5989C9E8F8025387792919EF0A2E739 /* FritzVisionPoseModel */,
+				6F4291FAB2306466A7F5B6F92E76DB9F /* Pods-iLyfe */,
+				1F0A4586773F84C1FB568B465A71D310 /* Pods-iLyfeTests */,
+				5DCD6909BDB2961A99F2DC49B91B2A14 /* Pods-iLyfeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220D37C3E1DF06D35B871DBA88D7D1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669B4990249D5AD01F218AC26543ED82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46BE03E325AF0168290D5A63FE9B507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58DF3F04DB0EABB99CF39E40D9859435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB72C2F23826B2B94C98AD49382D61B8 /* Pods-iLyfeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F1D6B6BD565288A954D7D111C4E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300CC6A3FFEBF2E28002A2FC9036D1A9 /* Pods-iLyfe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE5104A50ED8E27DE8E61E79D95D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AC1F41EEAF3863608673E55CD0F093 /* Pods-iLyfeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20AF4CC50ABEA6B674C3FFE997560F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionPoseModel;
+			target = B5989C9E8F8025387792919EF0A2E739 /* FritzVisionPoseModel */;
+			targetProxy = 9B3C8857E28439B5324AEF843A223DCA /* PBXContainerItemProxy */;
+		};
+		375B3D331C5EED75A9F2E3FE807423B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */;
+			targetProxy = C5802C573EB3B9729A713B45553BA5BD /* PBXContainerItemProxy */;
+		};
+		44617822BDA68C862B71DD6193509FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iLyfe";
+			target = 6F4291FAB2306466A7F5B6F92E76DB9F /* Pods-iLyfe */;
+			targetProxy = 629AE722BD0A1A3EDEBB74C26A3C2A65 /* PBXContainerItemProxy */;
+		};
+		AB99CB8B6BED1BAE00F3AF4D9236E443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iLyfe";
+			target = 6F4291FAB2306466A7F5B6F92E76DB9F /* Pods-iLyfe */;
+			targetProxy = 3E2357E5FAC0714F7C848DECF6607E32 /* PBXContainerItemProxy */;
+		};
+		B2054E95D88EBFDD1AA017D37BF20401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */;
+			targetProxy = 1CD1D9B3C1AB6A50E2946CECDA215527 /* PBXContainerItemProxy */;
+		};
+		B2ADE91497CC95320025C728F34D9FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionPoseModel;
+			target = B5989C9E8F8025387792919EF0A2E739 /* FritzVisionPoseModel */;
+			targetProxy = 28C2825E4D0D47FC89AA969C097E2AAA /* PBXContainerItemProxy */;
+		};
+		B6D551C8ACF19C18C28AD4F92406C2F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fritz;
+			target = FD4D230B022BCBFF67A5E99BA7AA380B /* Fritz */;
+			targetProxy = E8D3674258FF40A8AD52EBC63758B260 /* PBXContainerItemProxy */;
+		};
+		D99FAC88522CEE1057B11B47D97DE3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */;
+			targetProxy = 36BD05DCCDE8CCA27C379718AF72BDF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06A6E1C523E81F89579C1B40C061A76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF491D529D2D3BFD55F6395F001AAE5 /* FritzBase.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EFFC77594B9EBCA48630CD7F664DCD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936D38F047BAED155D9192AABFAEF6BB /* Pods-iLyfeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iLyfeTests/Pods-iLyfeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iLyfeTests/Pods-iLyfeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DBC6B171C9BEBD406C49B6F299C80CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF491D529D2D3BFD55F6395F001AAE5 /* FritzBase.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		37FBF82CAE93742D9B8FCB69D8BF25BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D47FF86ACD91A040036E8DC06478C65 /* FritzVisionPoseModel.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BF5BE00CDDC1CE3C12A6953926A7B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB6234E017A620AF4EF7E426C6DFAA1 /* Pods-iLyfe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iLyfe/Pods-iLyfe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iLyfe/Pods-iLyfe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60EAECE801740EE81C0EC4356A00413F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9710F524879FD52B4F1B5E8CCF917A6 /* Pods-iLyfe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iLyfe/Pods-iLyfe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iLyfe/Pods-iLyfe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		911F85783488D1B3C3D3668305C40D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C8D489F321752337906CEBCC9E8685 /* Fritz.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EA8597FE28E504F96A8F72FE4EE7798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B831EBCB40CF4392AE6C000B06BB9224 /* Pods-iLyfeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iLyfeTests/Pods-iLyfeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iLyfeTests/Pods-iLyfeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1AA38D8E5A64E7D011858A263FA7992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFE8C2FD3C3535373252A719EFEB6E5 /* Pods-iLyfeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iLyfeUITests/Pods-iLyfeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iLyfeUITests/Pods-iLyfeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAEEE4414701FC4945442EC7B76FCAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C8D489F321752337906CEBCC9E8685 /* Fritz.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB2FBB031069118BE91A133C77806B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1F8899B2998C16CA2A2928D45FE7F4 /* Pods-iLyfeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iLyfeUITests/Pods-iLyfeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iLyfeUITests/Pods-iLyfeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D688D5C66461DE9BEF0BB20609F08017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D47FF86ACD91A040036E8DC06478C65 /* FritzVisionPoseModel.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A28439F3D67F91FED1B1EF444188B43 /* Build configuration list for PBXAggregateTarget "Fritz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEEE4414701FC4945442EC7B76FCAAE /* Debug */,
+				911F85783488D1B3C3D3668305C40D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A5C69013D285EA33798394654857DC /* Build configuration list for PBXNativeTarget "Pods-iLyfeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA8597FE28E504F96A8F72FE4EE7798 /* Debug */,
+				0EFFC77594B9EBCA48630CD7F664DCD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D502233B73CFFB7D7CA2DE73C64470 /* Build configuration list for PBXAggregateTarget "FritzBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC6B171C9BEBD406C49B6F299C80CD /* Debug */,
+				06A6E1C523E81F89579C1B40C061A76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15680EA919D5583F8ACF76DEA01EA19 /* Build configuration list for PBXNativeTarget "Pods-iLyfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EAECE801740EE81C0EC4356A00413F /* Debug */,
+				5BF5BE00CDDC1CE3C12A6953926A7B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5AD32E907B93A3FAB53D1CE643219B /* Build configuration list for PBXAggregateTarget "FritzVisionPoseModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBF82CAE93742D9B8FCB69D8BF25BF /* Debug */,
+				D688D5C66461DE9BEF0BB20609F08017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9010E51B3D0C9B51C4A15869A94B2E7 /* Build configuration list for PBXNativeTarget "Pods-iLyfeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2FBB031069118BE91A133C77806B4D /* Debug */,
+				B1AA38D8E5A64E7D011858A263FA7992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

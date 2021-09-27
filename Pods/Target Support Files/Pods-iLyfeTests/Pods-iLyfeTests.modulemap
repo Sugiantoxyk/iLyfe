@@ -1,0 +1,6 @@
+framework module Pods_iLyfeTests {
+  umbrella header "Pods-iLyfeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

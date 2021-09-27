@@ -1,0 +1,6 @@
+framework module Pods_iLyfe {
+  umbrella header "Pods-iLyfe-umbrella.h"
+
+  export *
+  module * { export * }
+}
